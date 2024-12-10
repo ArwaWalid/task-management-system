@@ -25,11 +25,19 @@ The application uses Flask-Mail for sending emails:
         Enable SMTP access on the account.
         Generate an app-specific password.
         Update the email settings in config.py.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-postman collection link: https://x55555-2277.postman.co/workspace/9ed02964-179d-4925-bbd5-579874a795d7/documentation/40235878-cfae1363-5868-47f7-bfa6-be09a36a5313
+
+
+
+
+
+#####postman collection link: https://x55555-2277.postman.co/workspace/9ed02964-179d-4925-bbd5-579874a795d7/documentation/40235878-cfae1363-5868-47f7-bfa6-be09a36a5313
 it has a collection of all the requests and examples
 the project folder has a postman collection json file 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 ####Project Structure 
 1.	app.py => Main application file (entry point)
 2.	config.py => Configuration Settings 
@@ -38,6 +46,6 @@ the project folder has a postman collection json file
 5.	int_db.py => Initializes the databas
 6.	check_user.py => Check if a specific user exists in the database 
 7.	auth.py => Handles user authentication and authorization
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Task report.pdf is a documentation for the task making has the relational database diagram, setup instrucyion, project structure , use case and testing api on postman steps and examples
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+####Task report.pdf is a documentation for the task making has the relational database diagram, setup instruction, project structure , use case and testing api on postman steps and examples
