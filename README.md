@@ -1,11 +1,11 @@
-####Task report.pdf is a documentation for the task and comprehensive details about the project, including the relational database diagram, setup instruction, project structure , use case and testing api on postman steps and examples
+#### Task report.pdf is a documentation for the task and comprehensive details about the project, including the relational database diagram, setup instruction, project structure , use case and testing api on postman steps and examples
 
 
-#####postman collection link: https://x55555-2277.postman.co/workspace/9ed02964-179d-4925-bbd5-579874a795d7/documentation/40235878-cfae1363-5868-47f7-bfa6-be09a36a5313
+##### postman collection link: https://x55555-2277.postman.co/workspace/9ed02964-179d-4925-bbd5-579874a795d7/documentation/40235878-cfae1363-5868-47f7-bfa6-be09a36a5313
 it has a collection of all the requests and examples. The project folder also has a postman collection json file 
 
 
-#####Project setup:
+##### Project setup:
 1.Download and install PyCharm from its official website.
 2. Create a new folder to store all project files 
 3. Install Required Libraries
@@ -34,7 +34,7 @@ The application uses Flask-Mail for sending emails:
         Update the email settings in config.py.
 
 
-####Project Structure 
+#### Project Structure 
 1.	app.py => Main application file (entry point)
 2.	config.py => Configuration Settings 
 3.	db.py => Initializes SQLAlchemy, Bcrypt, and JWT 
@@ -110,7 +110,7 @@ If there's any issue (ex: one of the validations isn’t satisfied.), the respon
 
 
 
-#####to test retrieve API
+##### to test retrieve API
 1.	Open Postman
 2.	Select GET request type
 3.	Enter endpoint url: http://127.0.0.1:5000/retrievetask
@@ -196,7 +196,7 @@ If invalid Date-Time Format given (400 Bad Request)
 
 
 
-#####to test subscribe API
+##### to test subscribe API
 1.	Open Postman
 2.	Select POST request type
 3.	Enter endpoint url: http://127.0.0.1:5000/subscribe
@@ -219,7 +219,7 @@ If invalid Date-Time Format given (400 Bad Request)
 
 
 
-#####to test unsubscribe API
+##### to test unsubscribe API
 1.	Open Postman
 2.	Select DELETE request type
 3.	Enter endpoint url: http://127.0.0.1:5000/unsubscribe
