@@ -1,0 +1,1757 @@
+{
+	"info": {
+		"_postman_id": "cfae1363-5868-47f7-bfa6-be09a36a5313",
+		"name": "Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40235878",
+		"_collection_link": "https://x55555-2277.postman.co/workspace/9ed02964-179d-4925-bbd5-579874a795d7/collection/40235878-cfae1363-5868-47f7-bfa6-be09a36a5313?action=share&source=collection_link&creator=40235878"
+	},
+	"item": [
+		{
+			"name": "SignUp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"arwawalidshaker.28\",\r\n    \"email\": \"arwawalidshaker.28@example.com\",\r\n    \"password\": \"newpassword123\"\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/signup",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"signup"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "SignUp",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"arwawalidshaker.28\",\r\n    \"email\": \"arwawalidshaker.28@example.com\",\r\n    \"password\": \"newpassword123\"\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/signup",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"signup"
+							]
+						}
+					},
+					"status": "BAD REQUEST",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 12:38:14 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "41"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Email already exists!\"\n}"
+				},
+				{
+					"name": "SignUp",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"arwawalidshaker.288\",\r\n    \"email\": \"arwawalidshaker.288@example.com\",\r\n    \"password\": \"newpassword123\"\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/signup",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"signup"
+							]
+						}
+					},
+					"status": "CREATED",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:00:11 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "49"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"User registered successfully!\"\n}"
+				}
+			]
+		},
+		{
+			"name": "signin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"arwawalid28\",\r\n    \"email\": \"arwawalid28@example.com\",\r\n    \"password\": \"newpassword123\"\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/signin",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"signin"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "signin",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"arwawalidshaker.28\",\r\n    \"email\": \"arwawalidshaker.28@example.com\",\r\n    \"password\": \"newpassword123\"\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/signin",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"signin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:00:41 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "385"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTczMzgzNTY0MSwianRpIjoiNTdlZWY3ZjUtZDY5MS00ZjkwLWFkMjEtNTg2ZDE5NDUzNWQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjciLCJuYmYiOjE3MzM4MzU2NDEsImNzcmYiOiJiYTY0NmE0ZC03NWJlLTQ2YTAtYmVkNi01NjEzYTFkZWMxM2QiLCJleHAiOjE3MzM4MzY1NDF9.mP_B33q9bkjeYRTBeV4kP3NIEKZBGyoLR7wTInE9xEU\",\n    \"message\": \"Signin successful!\"\n}"
+				},
+				{
+					"name": "signin",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"arwawalidshakerr.28\",\r\n    \"email\": \"arwawalidshakerr.28@example.com\",\r\n    \"password\": \"newpassword123\"\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/signin",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"signin"
+							]
+						}
+					},
+					"status": "UNAUTHORIZED",
+					"code": 401,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:00:58 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "40"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Invalid credentials!\"\n}"
+				}
+			]
+		},
+		{
+			"name": "createtask",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTczMzU4NzE5NSwianRpIjoiMTZlNzM2ODgtZmM3Yy00MTk5LWFhNDMtOTg0YzcxOWM3NzQ3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3MzM1ODcxOTUsImNzcmYiOiI4YjA2NzJmZS1kYWM4LTQ4Y2MtOWEzYS02ZjNmOWIwNzA2MzciLCJleHAiOjE3MzM1ODgwOTV9.HNjyMRBdtLIf7Iv3Utg6vb26LMcrF0nyEmGwZKrT7t4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\"  : \"Task7\",\r\n    \"description\"  : \"Task7Description\",\r\n    \"start_date\"  : \"2024-12-10T17:30:00Z\",\r\n    \"due_date\"  :  \"2024-12-10T18:05:00Z\",\r\n    \"completion_date\"  :  \"2024-13-07T15:30:00Z\",\r\n    \"status\"  : \"Pending\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/createtask",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"createtask"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "createtask",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\"  : \"Task11\",\r\n    \"description\"  : \"TaskDescription\",\r\n    \"start_date\"  : \"2024-12-10T13:30:00Z\",\r\n    \"due_date\"  :  \"2024-12-10T18:05:00Z\",\r\n    \"completion_date\"  :  \"2024-12-10T15:30:00Z\",\r\n    \"status\"  : \"Pending\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/createtask",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"createtask"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:01:42 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "48"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Task is successfully created\"\n}"
+				},
+				{
+					"name": "createtask",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\"  : \"Task11\",\r\n    \"description\"  : \"TaskDescription\",\r\n    \"start_date\"  : \"2024-12-10T13:30:00Z\",\r\n    \"due_date\"  :  \"2024-12-10T18:05:00Z\",\r\n    \"completion_date\"  :  \"2024-12-10T15:30:00Z\",\r\n    \"status\"  : \"Pendig\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/createtask",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"createtask"
+							]
+						}
+					},
+					"status": "BAD REQUEST",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:02:15 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "83"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Invalid status. Allowed values are Pending, Completed, Overdue.\"\n}"
+				},
+				{
+					"name": "createtask",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\"  : \"Task11\",\r\n    \"description\"  : \"TaskDescription\",\r\n    \"start_date\"  : \"2024-12-10T13:30:00Z\",\r\n    \"due_date\"  :  \"2024-12-10T18:05:00Z\",\r\n    \"completion_date\"  :  \"2024-1-10T15:30:00Z\",\r\n    \"status\"  : \"Pending\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/createtask",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"createtask"
+							]
+						}
+					},
+					"status": "BAD REQUEST",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:02:27 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "78"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Invalid date format. You have to enter date in ISO format.\"\n}"
+				},
+				{
+					"name": "createtask",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\"  : \"Task11\",\r\n    \"description\"  : \"TaskDescription\",\r\n    \"start_date\"  : \"2024-12-10T13:30:00Z\",\r\n    \"due_date\"  :  \"2024-12-10T18:05:00Z\",\r\n    \"completion_date\"  :  \"2024-12-06T15:30:00Z\",\r\n    \"status\"  : \"Pending\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/createtask",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"createtask"
+							]
+						}
+					},
+					"status": "BAD REQUEST",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:02:47 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "62"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Start date must be before completion date.\"\n}"
+				},
+				{
+					"name": "createtask",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\"  : \"Task11\",\r\n    \"description\"  : \"TaskDescription\",\r\n    \"start_date\"  : \"2024-12-10T13:30:00Z\",\r\n    \"due_date\"  :  \"2024-12-10T18:05:00Z\",\r\n    \"completion_date\"  :  \"2024-12-11T15:30:00Z\",\r\n    \"status\"  : \"Pending\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/createtask",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"createtask"
+							]
+						}
+					},
+					"status": "BAD REQUEST",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:03:09 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "55"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Completion date be before due date.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "test",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTczMzQ5NTAzMCwianRpIjoiYWUzOTU0OTQtOWQ0MC00OWJiLWEzN2EtY2E2NmYxODA0NDEzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3MzM0OTUwMzAsImNzcmYiOiI1YjJiOTdhYy01NzE5LTQ2OGUtYjFiMS1hMTY1Yjg1ZTEyODAiLCJleHAiOjE3MzM0OTU5MzB9.wTtA13WLVXd4t0iOV9IQtb2e_I-05AAgRjTRxXCyNqM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/test",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "retreivetasks",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTczMzUwNjA2NywianRpIjoiODgwOTA3N2YtMjgxMC00YTRiLTk2ZTktOWQwZTQ2ZjQyYzIzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3MzM1MDYwNjcsImNzcmYiOiI0YzIyMGM2OS1lYTVkLTQzNWEtOTJiYi0wOGIyNTkwMjFlNGIiLCJleHAiOjE3MzM1MDY5Njd9.X2ZnyEcNhqxzvsgerjdhbuBVMfrVHw2V1iarUYmoATc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/retrievetask",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"retrievetask"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "retreivetasks",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/retrievetask",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"retrievetask"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:04:41 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "777"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"tasks\": [\n        {\n            \"Completion_date\": \"2024-12-10T15:30:00\",\n            \"Description\": \"TaskDescription\",\n            \"Due_date\": \"2024-12-10T18:05:00\",\n            \"ID\": 10,\n            \"Start_date\": \"2024-12-10T13:30:00\",\n            \"Status\": \"Overdue\",\n            \"Title\": \"Task 10\"\n        },\n        {\n            \"Completion_date\": \"2024-12-10T15:30:00\",\n            \"Description\": \"TaskDescription\",\n            \"Due_date\": \"2024-12-10T18:05:00\",\n            \"ID\": 11,\n            \"Start_date\": \"2024-12-10T13:30:00\",\n            \"Status\": \"Pending\",\n            \"Title\": \"Task11\"\n        },\n        {\n            \"Completion_date\": \"2024-12-10T15:30:00\",\n            \"Description\": \"TaskDescription\",\n            \"Due_date\": \"2024-12-10T18:05:00\",\n            \"ID\": 12,\n            \"Start_date\": \"2024-12-10T13:30:00\",\n            \"Status\": \"Pending\",\n            \"Title\": \"Task11\"\n        }\n    ]\n}"
+				},
+				{
+					"name": "retreivetasks",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/retrievetask?status=Overdue",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"retrievetask"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "Overdue"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:07:39 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "273"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"tasks\": [\n        {\n            \"Completion_date\": \"2024-12-10T15:30:00\",\n            \"Description\": \"TaskDescription\",\n            \"Due_date\": \"2024-12-10T18:05:00\",\n            \"ID\": 10,\n            \"Start_date\": \"2024-12-10T13:30:00\",\n            \"Status\": \"Overdue\",\n            \"Title\": \"Task 10\"\n        }\n    ]\n}"
+				},
+				{
+					"name": "retreivetasks",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/retrievetask?status=Overdue",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"retrievetask"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "Overdue"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:07:39 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "273"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"tasks\": [\n        {\n            \"Completion_date\": \"2024-12-10T15:30:00\",\n            \"Description\": \"TaskDescription\",\n            \"Due_date\": \"2024-12-10T18:05:00\",\n            \"ID\": 10,\n            \"Start_date\": \"2024-12-10T13:30:00\",\n            \"Status\": \"Overdue\",\n            \"Title\": \"Task 10\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "updatetask/3",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTczMzY0NTMxNSwianRpIjoiN2VhZDk2ZjktNzUxZi00YzBlLWIxZGUtMDAzNWQ0N2U0MWYwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3MzM2NDUzMTUsImNzcmYiOiJiYzk1Njg1ZS1iNGEwLTQzYTEtYjFlOC01NDE3YmRkZDhiNmUiLCJleHAiOjE3MzM2NDYyMTV9.buxUHRqN4UnaYF8nDBi_HAIzwX5TIcO0pHWaQEAMESg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\"  : \"Task2 arwa\",\r\n    \"status\"  : \"Overdue\", \r\n    \"start_date\"  : \"2024-12-05T17:30:00Z\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/updatetask/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"updatetask",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "updatetask/3",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\"  : \"Task 10\",\r\n    \"status\"  : \"Overdue\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/updatetask/10",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"updatetask",
+								"10"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 12:41:44 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "47"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Task updated successfully!!\"\n}"
+				}
+			]
+		},
+		{
+			"name": "deletetask/2",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTczMzUwNjIyOSwianRpIjoiM2ZiMWNiMTItNGUyYi00ZGM1LWJmMDQtZDI5ZjkwYzYzNTE3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3MzM1MDYyMjksImNzcmYiOiJmYzdiNTcyOS05OTgxLTRhOTItODVhNi03ZjBmMGQ4ZWMwZWEiLCJleHAiOjE3MzM1MDcxMjl9.VQLP99UgQZKAjJ4EL3Z4kZn2TYky41t8Cn5o9PTbNJ4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/deletetask/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"deletetask",
+						"2"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "deletetask/2",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/deletetask/10",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"deletetask",
+								"10"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 12:42:04 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Task deleted successfully!\"\n}"
+				},
+				{
+					"name": "deletetask/2",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/deletetask/10",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"deletetask",
+								"10"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "NOT FOUND",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:08:28 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "35"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Task not found.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "batchdelete",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTczMzUwNzMwMSwianRpIjoiZGQxMTU4MzktMzUwMC00ZGFiLThmZDMtMTM2M2IyNGNiODZmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3MzM1MDczMDEsImNzcmYiOiJiYmMxYzcwZS1jZjJjLTQxN2UtOTFiOS0wZGY5ZWI4NmFlODIiLCJleHAiOjE3MzM1MDgyMDF9.y3ocUO7XzJs5T4rTIUaUVDg-6Uk_rbBEs0_OWPbEdlM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/batchdelete?start_datetime_range=2024-12-10 15:20:00&due_datetime_range=2024-12-10 16:10:00",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"batchdelete"
+					],
+					"query": [
+						{
+							"key": "start_datetime_range",
+							"value": "2024-12-10 15:20:00"
+						},
+						{
+							"key": "due_datetime_range",
+							"value": "2024-12-10 16:10:00"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "batchdelete",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/batchdelete?start_datetime_range=2024-12-8 15:20:00&due_datetime_range=2024-12-11 16:10:00",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"batchdelete"
+							],
+							"query": [
+								{
+									"key": "start_datetime_range",
+									"value": "2024-12-8 15:20:00"
+								},
+								{
+									"key": "due_datetime_range",
+									"value": "2024-12-11 16:10:00"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 12:43:00 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "49"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"1 tasks deleted successfully!\"\n}"
+				}
+			]
+		},
+		{
+			"name": "restoretasks",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTczMzUwNzk4NiwianRpIjoiOGNmMGZlN2UtZWYyZC00MDBiLTg5NzUtMTg0ZDI3YzRmNGM5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3MzM1MDc5ODYsImNzcmYiOiI1YzhlZDc3Mi1kM2MxLTQxNWItYWJmNy0yYjFjNzVjNmJlNzciLCJleHAiOjE3MzM1MDg4ODZ9.i17yUqjbum9JLPtrkpL_HLvwKsWPOgyCupbZId9H_O8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/restoretasks",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"restoretasks"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "restoretasks",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/restoretasks",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"restoretasks"
+							]
+						}
+					},
+					"status": "NOT FOUND",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 12:43:08 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "54"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"No deleted tasks found to restore.\"\n}"
+				},
+				{
+					"name": "restoretasks",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/restoretasks",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"restoretasks"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:08:43 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "50"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"1 tasks restored successfully!\"\n}"
+				}
+			]
+		},
+		{
+			"name": "subscribe",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTczMzc2NzgxNiwianRpIjoiNTcwNmQ1NjMtZTMwOS00M2Q1LWJjZDQtZDIzOWRhNDFmNjJhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIiLCJuYmYiOjE3MzM3Njc4MTYsImNzcmYiOiIyNzZhZGVhMi1mMzcwLTRmNTctYTA5Yi04MTY4YTIwYzlhMjQiLCJleHAiOjE3MzM3Njg3MTZ9.HGjb3f-sBNS2QbQDMRgHfjgBWGaGpII3LPpFsLncPSY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"start_date\": \"2024-12-09T13:05:00\",\r\n    \"frequency\": \"weekly\",\r\n    \"report_time\": 19\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/subscribe",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"subscribe"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "subscribe",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"start_date\": \"2024-12-09T13:05:00\",\r\n    \"frequency\": \"weekly\",\r\n    \"report_time\": 19\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/subscribe",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"subscribe"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 12:43:23 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "54"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Subscription created successfully!\"\n}"
+				},
+				{
+					"name": "subscribe",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"start_date\": \"2024-12-09T13:05:00\",\r\n    \"frequency\": \"weekly\",\r\n    \"report_time\": 19\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/subscribe",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"subscribe"
+							]
+						}
+					},
+					"status": "BAD REQUEST",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:12:09 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "53"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"User already has another subsc...\"\n}"
+				},
+				{
+					"name": "subscribe",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"start_date\": \"2024-12-09T13:05:00\",\r\n    \"frequency\": \"weekly\",\r\n    \"report_time\": 19\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/subscribe",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"subscribe"
+							]
+						}
+					},
+					"status": "BAD REQUEST",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:15:47 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "72"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"User can only subscribe if he has at least one task.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "unsubscribe",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTczMzUxMDA5NiwianRpIjoiMTlkNjVjYTItYzhhMC00NzIyLWI0MjItOTg4MThkNDg0OTJiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3MzM1MTAwOTYsImNzcmYiOiI2Nzc5OWE4ZS1hN2ZlLTQyYjAtODMwMS1lMGZmMWQ3Nzg5OGIiLCJleHAiOjE3MzM1MTA5OTZ9.rREAk2C6DkSbonf_31FrHDBgRDMyFxsZ-6n6JNlAtto",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/unsubscribe",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"unsubscribe"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "unsubscribe",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/unsubscribe",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"unsubscribe"
+							]
+						}
+					},
+					"status": "NOT FOUND",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 12:53:31 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "63"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"No active subscription found for this user.\"\n}"
+				},
+				{
+					"name": "unsubscribe",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/unsubscribe",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"unsubscribe"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 10 Dec 2024 13:13:11 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "54"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Subscription deleted successfully!\"\n}"
+				}
+			]
+		}
+	]
+}
