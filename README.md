@@ -2,8 +2,8 @@
 
 
 #####postman collection link: https://x55555-2277.postman.co/workspace/9ed02964-179d-4925-bbd5-579874a795d7/documentation/40235878-cfae1363-5868-47f7-bfa6-be09a36a5313
-it has a collection of all the requests and examples
-the project folder has a postman collection json file 
+it has a collection of all the requests and examples. The project folder also has a postman collection json file 
+
 
 #####Project setup:
 1.Download and install PyCharm from its official website.
@@ -32,8 +32,6 @@ The application uses Flask-Mail for sending emails:
         Enable SMTP access on the account.
         Generate an app-specific password.
         Update the email settings in config.py.
-
-
 
 
 ####Project Structure 
